@@ -391,6 +391,11 @@ $ curl -w '\n' -D - -s \
   -H "Content-type: application/json" \
   -d @DeploymentDescriptor.json  \
   http://localhost:9130/_/deployment/modules
+  
+{
+  "srvcId" : "hello",
+  "nodeId" : "localhost"
+}
 ```
 
 此处也请留意***DeploymentDescriptor.json***文件内容以及url地址：’ ***/_/deployment/modules***’
