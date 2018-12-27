@@ -390,10 +390,10 @@ $ curl -w '\n' -D - -s \
   -X POST \
   -H "Content-type: application/json" \
   -d @DeploymentDescriptor.json  \
-  http://localhost:9130/_/discovery/modules
+  http://localhost:9130/_/deployment/modules
 ```
 
-此处也请留意***DeploymentDescriptor.json***文件内容以及url地址：’ ***/_/discovery/modules***’
+此处也请留意***DeploymentDescriptor.json***文件内容以及url地址：’ ***/_/deployment/modules***’
 
 ```
 # ------ DeploymentDescriptor.json ------
